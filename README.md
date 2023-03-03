@@ -1,6 +1,5 @@
 # Promy-na-rzece
 Project made as a part of Concurrent Programming course at Military University of Technology using Java programing language and JavaFX.
-Projekt z programowania współbieżnego. Promy poruszają się pomiędzy dwoma przystaniami, gdzie wyładowują  samochody ze swojego pokładu, a następnie pobierają je z kolejki samochodów na nie czekających. Produkcją samochodów zajmuje się dwóch producentów,  każdy na jednej przystani, którzy po wyprodukowaniu samochodu wstawiają go  na koniec kolejki. Promy najpierw wyładowują auta z pokładu, a następnie  czekają określony okres czasu na wjazd co najmniej jednego samochodu. Jeżeli  się zapełnią i nie minie ich czas postoju ruszają do drugiej przystani. Promy płyną  do drugiej przystani przez określony czas, po dopłynięciu ustawiają się w kolejce  i przesuwają w niej do momentu trafienia na pierwsze miejsce kolejki, gdzie  zajmują się wyładunkiem i załadunkiem aut.
 
 ## Project overview
 Given number of ferries move between two marinas where they first unload cars from their decks and then retrieve new cars from a queue of waiting to be loaded cars.
